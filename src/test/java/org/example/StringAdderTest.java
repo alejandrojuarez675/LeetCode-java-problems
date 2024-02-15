@@ -3,15 +3,13 @@ package org.example;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class StringAdderTest {
 
     @Test
     void addStringsExample1() {
         Assertions.assertEquals(
                 "134",
-                new StringAdder().addStrings("11", "123")
+                new P415_StringAdder().addStrings("11", "123")
         );
     }
 
@@ -19,7 +17,7 @@ class StringAdderTest {
     void addStringsExample2() {
         Assertions.assertEquals(
                 "533",
-                new StringAdder().addStrings("456", "77")
+                new P415_StringAdder().addStrings("456", "77")
         );
     }
 
@@ -27,7 +25,7 @@ class StringAdderTest {
     void addStringsExample3() {
         Assertions.assertEquals(
                 "0",
-                new StringAdder().addStrings("0", "0")
+                new P415_StringAdder().addStrings("0", "0")
         );
     }
 
@@ -35,7 +33,7 @@ class StringAdderTest {
     void addStringsExampleSameLength() {
         Assertions.assertEquals(
                 "25",
-                new StringAdder().addStrings("10", "15")
+                new P415_StringAdder().addStrings("10", "15")
         );
     }
 
@@ -43,7 +41,7 @@ class StringAdderTest {
     void addStringsExampleExtraCharacterAtInit() {
         Assertions.assertEquals(
                 "105",
-                new StringAdder().addStrings("10", "95")
+                new P415_StringAdder().addStrings("10", "95")
         );
     }
 }

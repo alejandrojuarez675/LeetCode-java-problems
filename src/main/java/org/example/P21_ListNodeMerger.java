@@ -13,7 +13,7 @@ import java.util.List;
  * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class ListNodeMerger {
+class P21_ListNodeMerger {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         List<Integer> resultList = new ArrayList<>();
 

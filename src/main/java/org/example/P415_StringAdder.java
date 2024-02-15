@@ -22,7 +22,7 @@ package org.example;
  num1 and num2 consist of only digits.
  num1 and num2 don't have any leading zeros except for the zero itself.
  */
-public class StringAdder {
+public class P415_StringAdder {
     public String addStrings(String num1, String num2) {
         StringBuilder result = new StringBuilder();
 

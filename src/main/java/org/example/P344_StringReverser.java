@@ -1,6 +1,6 @@
 package org.example;
 
-public class StringReverser {
+public class P344_StringReverser {
     public void reverseString(char[] s) {
         if (s == null || s.length == 0) return;
 
